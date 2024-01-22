@@ -2,8 +2,8 @@ import cv2
 import os
 import time
 haar_file='haarcascade_frontalface_default.xml'
-datasets="C:/Users/ayush/PycharmProjects/face-detection/dataset"
-name="ayush"
+datasets="C:/Users/vaibhav/PycharmProjects/face-detection/dataset"
+name="vaibhav"
 path=os.path.join(datasets,name)
 if not os.path.isdir(path):
     os.mkdir(path)
@@ -24,7 +24,7 @@ while count<10001:
             face_resize=cv2.resize(face,(640,480))
             cv2.imwrite("%s/%s.png"%(path,count),face_resize)
         count=count+1
-        cv2.imshow("ayushwin",frame)
+        cv2.imshow("vaibhavwin",frame)
         if cv2.waitKey(1)==ord("q"):
             break
 print("your thopda has been created")
