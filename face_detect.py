@@ -2,7 +2,7 @@
 # import os
 # import numpy as np
 # haar_file='haarcascade_frontalface_default.xml'
-# datasets="C:/Users/ayush/PycharmProjects/face-detection/dataset"
+# datasets="C:/Users/vaibhav/PycharmProjects/face-detection/dataset"
 # (images,labels,names,id)=([],[],{},0)
 # for(subdirs,dirs,files) in os.walk(datasets):
 #     for subdirs in dirs:
@@ -51,7 +51,7 @@ import os
 import time
 import numpy as np
 haar_file = "haarcascade_frontalface_default.xml"
-datasets ="C:/Users/ayush/PycharmProjects/face-detection/dataset"q
+datasets ="C:/Users/vaibhav/PycharmProjects/face-detection/dataset"q
 (images,labels,names,id)=([],[],{},0)
 for (subdirs,dirs,files) in os.walk(datasets):
     for subdirs in dirs:
